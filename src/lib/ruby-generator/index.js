@@ -24,7 +24,8 @@ import TranslateBlocks from './translate.js';
 import MakeyMakeyBlocks from './makeymakey.js';
 import MicrobitBlocks from './microbit.js';
 import BoostBlocks from './boost.js';
-import EV3Blocks from './ev3.js'
+import EV3Blocks from './ev3.js';
+import GdxForBlocks from './gdx_for.js';
 
 const SCALAR_TYPE = '';
 const LIST_TYPE = 'list';
@@ -452,5 +453,6 @@ MakeyMakeyBlocks(RubyGenerator);
 MicrobitBlocks(RubyGenerator);
 BoostBlocks(RubyGenerator);
 EV3Blocks(RubyGenerator);
+GdxForBlocks(RubyGenerator);
 
 export default RubyGenerator;
