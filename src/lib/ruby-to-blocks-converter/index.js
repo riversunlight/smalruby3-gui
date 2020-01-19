@@ -17,12 +17,9 @@ import SensingConverter from './sensing';
 import OperatorsConverter from './operators';
 import VariablesConverter from './variables';
 import MyBlocksConverter from './my-blocks';
-<<<<<<< Updated upstream
 import MusicConverter from './music';
 import EV3Converter from './ev3';
-=======
 import GdxForConverter from './gdx_for';
->>>>>>> Stashed changes
 
 /**
  * Class for a block converter that translates ruby code into the blocks.
@@ -40,12 +37,9 @@ class RubyToBlocksConverter {
             OperatorsConverter,
             VariablesConverter,
             MyBlocksConverter,
-<<<<<<< Updated upstream
 			MusicConverter,
-            EV3Converter
-=======
+            EV3Converter,
             GdxForConverter
->>>>>>> Stashed changes
         ];
         this.reset();
     }
